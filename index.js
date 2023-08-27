@@ -1,4 +1,5 @@
 const express=require('express')
+import fetch from 'cross-fetch';
 const app=express();
 const cors=require('cors')
 const parse=require('body-parser');
