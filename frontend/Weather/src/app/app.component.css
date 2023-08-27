@@ -1,0 +1,27 @@
+input{
+    width:60%;
+    margin-top:10%;
+    margin-left:10%;
+}
+button{
+    margin-left:10%;
+    padding:10px;
+    background-color:black;
+    border:none;
+}
+button:hover{
+    background-color:red;
+}
+#bg{
+    background-image:url("/assets/images/cloud1.jpg");
+    background-repeat: no-repeat;
+    height:1000px;
+    width:100%;
+}
+p{
+    font:bolder;
+    color: white;
+    margin-left:10%;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

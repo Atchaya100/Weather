@@ -1,0 +1,12 @@
+<div id="bg">
+  <br>
+  <div>
+  <form  #formRef="ngForm" (ngSubmit)="login(formRef.value)" class="form-group">
+    <input type="text" [(ngModel)]="cities" id="cities" name="cities" required class="form-control"/>
+    <br><br>
+    <button class="btn btn-info">Show Weather</button>
+  </form>
+  <br>
+  <p>{{weather|json}}</p>
+  </div>
+</div>
