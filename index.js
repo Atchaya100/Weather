@@ -24,7 +24,7 @@ app.post('/getWeather',async (req,res)=>{
           const jsonResponse = await response.json();
           if(jsonResponse.request){
           cities.push(jsonResponse.location.name)
-          temp.push(jsonResponse.current.temperature)
+          temp.push(jsonResponse.current.temperature+"C")
           }
         
         }
