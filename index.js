@@ -1,5 +1,5 @@
+const fetch = require("node-fetch");
 const express=require('express')
-import fetch from 'cross-fetch';
 const app=express();
 const cors=require('cors')
 const parse=require('body-parser');
@@ -35,7 +35,7 @@ app.post('/getWeather',async (req,res)=>{
       console.log([cities[i]],[temp[i]])
       } 
       if(temp.length==0){
-          res.json("error")
+          res.send("error")
       }
       else{
       res.send(a)
